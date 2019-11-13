@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+
+/* NAVEGACION */
+.navbar {
+  font-family: 'Noto sans', sans-serif;
+  font-size: 1.1em;
+  background-color: #fff;
+  box-shadow: #111;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #111;
+}
+
+.navmenu i {
+  margin-right: 22px;
+  padding-left: 22px;
+}
+
+.navmenu a:hover {
+  color: gray;
+}
+
+.navbar-brand:hover {
+  color: gray;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.collapse {
+  justify-content: center;
+}
+
+/* HEADER */
+.main-header {
+  background-image: url(../img/urban.jpg);
+  height: 850px;
+  margin-top: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header h1 {
+  font-weight: lighter;
+  padding-top: 15%;
+
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: inherit;
+}
+
+/*  PERFECT BALANCE */
+
+
+
+.balance {
+  margin-top: 4%;
+  background: black;
+}
+
+.balance h2 {
+  font-weight: lighter;
+}
+
+.gender img {
+  width: 100%;
+  padding: 10%;
+
+}
+
+/*LANZAMIENTOS*/
+.lanzamientos {
+  margin-top: 5%;
+
+}
+
+.launch {
+  background: black;
+}
+.lanzamientos h1 {
+  font-weight: lighter;
+  margin-bottom: 10%;
+}
+
+.lanzamientos img {
+  width: 100%;
+  display: block;
+}
+
+
+/* FOOTER BANNER */
+.bannerbottom {
+  margin-top: 10%;
+  background: #111;
+}
+
+.bannerbottom h1 {
+  font-weight: lighter;
+}
+
+/* FOOTER */
+footer {
+  background: rgba(1, 1, 1, 0.1);
+  overflow-x: hidden;
+ 
+}
+
+.social {
+  padding-top: 40px;
+}
+
+.social i {
+  padding-right: 10px;
+}
+
+/* LOGIN */
+.ingresar {
+    background-image: url(../img/naranja.jpg);
+
+  }
+/*REGISTRARSE*/
+
+
+.registerr p {
+  font-weight: lighter;
+  font-size: 24px;
+  color: black;
+}
+
+.registerr h1 {
+  font-weight: lighter;
+}
+
+.registerr .btn {
+  margin-left: 1%;
+}
+
+
+
+
+/*PREGUNTAS FRECUENTES*/
+.cover {
+  background: #fff;
+}
+
+#title {
+  font-family: 'Noto sans', sans-serif;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 15px;
+}
+
+td {
+  font-family: 'Noto sans', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  padding: 5px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+}
+
+.answer li {
+  list-style: none;
+  margin-right: auto;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.answer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 991px) {
+  .navmenu {
+    display: none;
+  }
+  }
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+  .fa-shopping-cart {
+    display: inline-flex;
+  }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+
+
+}
